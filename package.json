@@ -1,0 +1,20 @@
+{
+  "name": "graphql_example",
+  "version": "0",
+  "main": "index.js",
+  "license": "MIT",
+  "description": "Minimum viable example of using gql for connecting multiple databases",
+  "author": "mdp",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "dependencies": {
+    "apollo": "^2.13.1",
+    "apollo-server": "^2.6.4",
+    "graphql": "^14.3.1",
+    "mariadb": "^2.0.5",
+    "mongoose": "^5.6.1",
+    "nodemon": "^1.19.1",
+    "sequelize": "^5.8.12"
+  }
+}
